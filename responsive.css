@@ -1,0 +1,174 @@
+@media screen and (max-width: 979px) {
+  header .navbar .nav {
+    display: none;
+  }
+
+  #navbar .menu {
+    display: block;
+  }
+
+  .second .places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 700px;
+  }
+
+  #terceira .imagesTree{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar .nav {
+    white-space: nowrap;
+  }
+
+  .navbar .nav.ativo {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: azure;
+    width: 100%;
+    top: 170px;
+    right: 0;
+    z-index: 1000;
+    height: calc(100vh - 170px);
+  }
+
+  .navbar .nav li {
+    color: black;
+    transition: 0.6s;
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar .nav {
+    display: none;
+  }
+
+  #navbar .menu {
+    display: block;
+  }
+
+  .navbar .menu {
+    width: 10px;
+  }
+
+  .navbar {
+    font-size: 29px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sum .first-msg {
+    max-width: 300px;
+  }
+
+  .sum .first .text1{
+    font-size:30px;
+  }
+
+  #second .texth2 {
+    font-size: 20px;
+  }
+
+  .second .places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 700px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar .menu {
+    width: 10px;
+  }
+
+  .header .navbar .nav{
+    display: none;
+  }
+
+  #navbar .menu {
+    display: block;
+  }
+
+  #terceira .imagesTree {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sum {
+    overflow: hidden;
+  }
+  
+  #sum  .redes{
+    position: relative;
+    bottom: 100px;
+  }
+
+  .navbar {
+    font-size: 19px;
+    margin: 10px;
+  }
+
+  #second .texth2 {
+    font-size: 20px;
+  }
+
+  section #second #places {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+
+  .navbar .nav.ativo {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    background-color: azure;
+    width: 100vw;
+    top: 170px;
+    right: 0;
+    z-index: 1000;
+    height: calc(100vh - 170px);
+  }
+
+  #first h1 {
+    font-size: 32px;
+  }
+
+  #first p {
+    font-size: 21px;
+  }
+
+  #first {
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+  }
+
+  #tree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar .nav li {
+    color: black;
+    transition: 0.6s;
+    display: block;
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid black;
+  }
+
+}
